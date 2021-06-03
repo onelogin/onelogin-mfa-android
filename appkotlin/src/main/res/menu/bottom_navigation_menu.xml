@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/navigation_register"
+        android:title="@string/bottom_navigation_register"
+        android:icon="@drawable/ic_add_white"
+        tools:layout="@layout/fragment_register" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/bottom_navigation_home"
+        android:icon="@drawable/ic_home_white"
+        tools:layout="@layout/fragment_home"/>
+
+    <item
+        android:id="@+id/navigation_factors"
+        android:title="@string/bottom_navigation_factors"
+        android:icon="@drawable/ic_key_white"
+        tools:layout="@layout/fragment_factors"/>
+</menu>

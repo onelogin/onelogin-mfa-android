@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/onelogin_mfa_otp_code_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/onelogin_mfa_otp_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            tools:text="7654321" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/onelogin_mfa_otp_warning_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/onelogin_mfa_otp_warning_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/onelogin_mfa_otp_warning" />
+
+            <TextView
+                android:id="@+id/onelogin_mfa_otp_warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp">
+            </TextView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</merge>

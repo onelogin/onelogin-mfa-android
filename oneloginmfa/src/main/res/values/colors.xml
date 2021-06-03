@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="onelogin_mfa_blue">#00A8E0</color>
+    <color name="onelogin_mfa_orange">#F2632A</color>
+    <color name="onelogin_mfa_green">#018112</color>
+    <color name="onelogin_mfa_progress_background">#f0f2f3</color>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OneLogin MFA SDK : Java</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="home_welcome_text">Java Demo Application</string>
+    <string name="home_register_info_text">Open the menu in the top left corner to view all the ways you can register a factor.</string>
+    <string name="home_factors_info_text">From there, you\'ll also be able to view your registered factors.</string>
+    <string name="home_total_factors_count">Registered Factors:</string>
+    <string name="home_delete_factors_button_text">Delete all factors</string>
+
+    <string name="web_login_title">Web Login</string>
+    <string name="web_login_subdomain_hint">Subdomain</string>
+    <string name="web_login_username_hint">Username</string>
+    <string name="web_login_password_hint">Password</string>
+    <string name="web_login_register_button_text">Register</string>
+
+    <string name="qr_title">QR Scan</string>
+    <string name="qr_manual_entry_button_text">Enter code instead</string>
+
+    <string name="manual_entry_title">Manual Entry</string>
+
+    <string name="factors_title">Factors</string>
+    <string name="factors_dialog_details_issuer_label">Issuer</string>
+    <string name="factors_dialog_details_username_label">Username</string>
+    <string name="factors_dialog_details_url_label">URL</string>
+    <string name="factor_dialog_details_credential_id_label">Credential ID</string>
+</resources>

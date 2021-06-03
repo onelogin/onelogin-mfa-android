@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="com.onelogin.mfa.appkotlin.register.RegisterFragment"
+        android:label="@string/bottom_navigation_register"
+        tools:layout="@layout/fragment_register" >
+
+        <action
+            android:id="@+id/action_navigation_register_to_qr_fragment"
+            app:destination="@id/qr_fragment" />
+
+        <action
+            android:id="@+id/action_navigation_register_to_web_login_fragment"
+            app:destination="@id/web_login_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.onelogin.mfa.appkotlin.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_factors"
+        android:name="com.onelogin.mfa.appkotlin.factors.FactorsFragment"
+        android:label="@string/bottom_navigation_factors"
+        tools:layout="@layout/fragment_factors" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/qr_fragment"
+        android:name="com.onelogin.mfa.appkotlin.register.QrFragment"
+        android:label="Register By QR" >
+
+        <action
+            android:id="@+id/action_qr_fragment_to_manual_entry_fragment"
+            app:destination="@id/manual_entry_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/manual_entry_fragment"
+        android:name="com.onelogin.mfa.appkotlin.register.ManualEntryFragment"
+        android:label="Register By Manual Entry"/>
+
+    <fragment
+        android:id="@+id/web_login_fragment"
+        android:name="com.onelogin.mfa.appkotlin.register.WebLoginFragment"
+        android:label="Register By Web Login" />
+
+</navigation>

@@ -1,0 +1,4 @@
+include ':appjava'
+rootProject.name = "Protect MFA SDK"
+include ':oneloginmfa'
+include ':appkotlin'

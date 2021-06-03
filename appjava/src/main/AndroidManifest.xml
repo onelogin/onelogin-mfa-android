@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onelogin.mfa.appjava">
+
+    <application
+        android:name=".MfaJavaDemoApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProtectMFASDK">
+        <activity
+            android:name=".factors.FactorsActivity"
+            android:label="@string/factors_title"
+            android:theme="@style/Theme.ProtectMfaSdkActivity" />
+        <activity
+            android:name=".register.ManualEntryActivity"
+            android:label="@string/manual_entry_title"
+            android:theme="@style/Theme.ProtectMfaSdkActivity" />
+        <activity
+            android:name=".register.QrActivity"
+            android:label="@string/qr_title"
+            android:theme="@style/Theme.ProtectMfaSdkActivity" />
+        <activity
+            android:name=".register.WebLoginActivity"
+            android:label="@string/web_login_title"
+            android:theme="@style/Theme.ProtectMfaSdkActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

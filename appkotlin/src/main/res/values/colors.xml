@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_background">#ECEFF0</color>
+    <color name="primary_blue">#00A8E0</color>
+    <color name="primary_blue_variant">#00779E</color>
+
+    <color name="primary_orange">#F2632A</color>
+    <color name="primary_orange_variant">#FFA929</color>
+
+    <color name="primary_text_color">#494B54</color>
+    <color name="primary_white">#FFFFFF</color>
+    <color name="primary_grey">#E6E6E6</color>
+
+    <color name="toolbar_background_dark">#1C202A</color>
+</resources>

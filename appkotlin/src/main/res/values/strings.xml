@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OneLogin MFA SDK : Kotlin</string>
+
+    <!-- Bottom Navigation -->
+    <string name="bottom_navigation_register">Register</string>
+    <string name="bottom_navigation_home">Home</string>
+    <string name="bottom_navigation_factors">Factors</string>
+
+    <!-- Register -->
+    <string name="register_qr_manual_button">Register by QR/Manual Entry</string>
+    <string name="register_web_login_button">Register by Web Login</string>
+    <string name="register_by_oidc">Register by OIDC</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/nav_factors"
+            android:title="Factors"
+            android:icon="@drawable/ic_factors" />
+    </group>
+
+    <item android:title="Register" >
+        <menu>
+
+            <item
+                android:id="@+id/nav_oidc"
+                android:title="OIDC"
+                android:checkable="false"
+                android:enabled="false"
+                android:icon="@drawable/ic_oidc" />
+
+            <item
+                android:id="@+id/nav_web_login"
+                android:title="Web Login"
+                android:icon="@drawable/ic_web_login" />
+
+            <item
+                android:id="@+id/nav_qr_or_manual"
+                android:title="QR Scan/Manual Entry"
+                android:icon="@drawable/ic_qr_scan" />
+        </menu>
+    </item>
+</menu>

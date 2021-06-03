@@ -1,0 +1,33 @@
+<resources>
+    <declare-styleable name="Otp">
+        <attr name="code" format="string" />
+        <attr name="code_color" format="color" />
+        <attr name="code_size" format="dimension" />
+        <attr name="enable_tap_to_copy" format="boolean" />
+        <attr name="enable_show_toast_on_copy" format="boolean" />
+        <attr name="enable_warning_icon" format="boolean" />
+        <attr name="warning_icon_size" format="dimension" />
+        <attr name="message_warning_size" format="dimension" />
+        <attr name="message_warning_keyguard_required" format="string" />
+        <attr name="message_warning_unrooted_device_required" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="QrScan">
+        <attr name="enable_border" format="boolean" />
+        <attr name="enable_accept_symbol" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ManualEntry">
+        <attr name="factor_code_color" format="color" />
+        <attr name="factor_code_size" format="dimension" />
+        <attr name="factor_code_hint" format="string" />
+        <attr name="factor_code_hint_color" format="color" />
+        <attr name="enable_nine_digit_format" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CountdownDial">
+        <attr name="countdown_background_color" format="color" />
+        <attr name="countdown_paint_color" format="color" />
+        <attr name="countdown_center_color" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onelogin_mfa_invalid_code">Code must be at least 9 digits</string>
+    <string name="onelogin_mfa_copy_otp">OTP code copied</string>
+    <string name="onelogin_mfa_manual_entry_hint">Activation Code</string>
+    <string name="onelogin_mfa_otp_unrooted_device_required">Un-rooted device required</string>
+    <string name="onelogin_mfa_otp_device_lock_required">Screen lock required</string>
+    <string name="onelogin_mfa_otp_generation_error">Unable to generate OTP</string>
+</resources>
