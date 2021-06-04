@@ -49,7 +49,7 @@ repositories {
 ```
 
 ```gradle
-implementation("com.onelogin:onelogin-mfa-android-sdk:1.0.1")
+implementation("com.onelogin:onelogin-mfa-android-sdk:1.0.2")
 ```
 
 ## Configuration
