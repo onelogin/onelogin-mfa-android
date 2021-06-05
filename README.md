@@ -42,7 +42,14 @@ requirements.
 To install the library add the following dependency to the `build.gradle` file of your module:
 
 ```gradle
-implementation("com.onelogin:onelogin-mfa-android-sdk:1.0.0")
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+```
+
+```gradle
+implementation("com.onelogin:onelogin-mfa-android-sdk:1.0.2")
 ```
 
 ## Configuration
